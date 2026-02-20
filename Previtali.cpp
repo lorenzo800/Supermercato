@@ -43,7 +43,6 @@ int main(){
 	
 	
 	
-	
 	do{
 	cout<<"inserisci il valore di s(1= aggiungi,2=vizualizza,3=cerca,4=cancella,5=modifica)"
 	cin>>s;
@@ -66,10 +65,9 @@ int main(){
 	break;	
 	}while(s!=0);
 	
-	
 }
 	
-	
+
 	return 0;
 
 }
