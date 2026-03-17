@@ -13,6 +13,31 @@ void aggiungi(prodotto pp, prodotto ele[],int &dim){
 	dim++;	
 }
 
+void aggiungi_ordine(prodotto pp, prodotto ele[],int &dim){
+	ele[dim]=pp;
+	dim++;	
+}
+
+
+void swap(int&a,int&b){       
+ 	int temp=a;
+ 	a=b;
+ 	b=temp;		
+ }
+ 
+
+  void bubble_sort (int v[], int d){        
+  	for(int j=0;j<d;j++){
+	     
+  	for (int i=0;i<d;i++){
+	  	
+  		if(v[i]>v[i+1]){      
+  		swap(v[i],v[i+1]);
+		  }
+}
+}
+}
+
 string visualizza(prodotto ele[], int dim){
 	string s;
 	for(int i=0;i<dim;i++){
